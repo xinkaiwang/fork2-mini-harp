@@ -1,7 +1,8 @@
 var connect = require('connect');
 
 function createMiniHarp() {
-  return connect();
+  var app = connect();
+  return app;
 }
 
 module.exports = createMiniHarp;
