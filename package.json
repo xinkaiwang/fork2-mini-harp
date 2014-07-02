@@ -7,11 +7,12 @@
     "test": "mocha test"
   },
   "bin": {
-    "mini-harp" : "./bin/mini-harp.js"
+    "mini-harp": "./bin/mini-harp.js"
   },
   "author": "xinkai wang",
   "license": "ISC",
   "dependencies": {
-    "connect": "^3.0.1"
+    "connect": "^3.0.1",
+    "minimist": "^0.2.0"
   }
 }
